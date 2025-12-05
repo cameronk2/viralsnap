@@ -1,131 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>InstantClips AI – Automated Short-Form Video Generator</title>
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>InstantClips AI – Automated Viral Short-Form Video Generator</title>
+    <link rel="stylesheet" href="styles.css"/>
 </head>
 
 <body>
 
-    <!-- Header -->
-    <header class="header">
-        <div class="logo">InstantClips AI</div>
-        <nav class="nav">
-            <a href="#features">Features</a>
-            <a href="#pricing">Pricing</a>
-            <a href="#faq">FAQ</a>
-            <a href="#cta" class="btn-primary small">Get Started</a>
-        </nav>
-    </header>
+<header class="header">
+    <img src="assets/logo-light.png" class="logo" id="logo">
+    <nav class="nav">
+        <a href="#features">Features</a>
+        <a href="#showcase">Showcase</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+    </nav>
+    <button id="darkModeToggle" class="dark-toggle">☾</button>
+</header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-
-        <div class="hero-bg"></div>
-
-        <div class="hero-inner">
-            <h1 data-animate>Automate Viral Short-Form Videos</h1>
-            <p data-animate>Create TikToks, Reels, and Shorts instantly with AI scripts, voiceovers, captions and editing.</p>
-
-            <div class="hero-buttons" data-animate>
-                <a href="#pricing" class="btn-primary large">Start Creating</a>
-                <a href="#features" class="btn-secondary large">Learn More</a>
-            </div>
-
-            <!-- Hero Image Mockup -->
-            <div class="hero-img" data-animate>
-                <img src="https://images.unsplash.com/photo-1551033406-611cf9a28f67?q=80&w=1200" alt="AI Video Mockup">
-            </div>
-
+<section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-inner" data-animate>
+        <h1>Create Viral Shorts with One Click</h1>
+        <p>AI scripts, voiceovers, editing, pacing, captions and HD export — fully automated.</p>
+        <div class="hero-buttons">
+            <a class="btn-primary" href="#pricing">Start Now</a>
+            <a class="btn-secondary" href="#features">Explore Features</a>
         </div>
-    </section>
+        <div class="mockup-container">
+            <img src="assets/mockup.png" class="mockup" alt="Product Mockup">
+        </div>
+    </div>
+</section>
 
-    <!-- Features Section -->
-    <section id="features" class="section">
-        <h2 class="section-title" data-animate>Powerful AI Features</h2>
+<section id="features" class="section">
+    <h2 class="section-title" data-animate>AI That Builds Viral Videos For You</h2>
+    <div class="feature-grid">
 
-        <div class="feature-grid">
-
-            <div class="feature-card" data-animate>
-                <img src="https://img.icons8.com/?size=100&id=23250&format=png" alt="">
-                <h3>AI Scriptwriting</h3>
-                <p>Generate viral, engaging, high-retention scripts in seconds.</p>
-            </div>
-
-            <div class="feature-card" data-animate>
-                <img src="https://img.icons8.com/?size=100&id=23243&format=png" alt="">
-                <h3>AI Voiceovers</h3>
-                <p>Choose from 40+ premium voices across languages and styles.</p>
-            </div>
-
-            <div class="feature-card" data-animate>
-                <img src="https://img.icons8.com/?size=100&id=83336&format=png" alt="">
-                <h3>Auto Editing</h3>
-                <p>Captions, b-roll, pacing, sound design, and effects — automated.</p>
-            </div>
-
-            <div class="feature-card" data-animate>
-                <img src="https://img.icons8.com/?size=100&id=59826&format=png" alt="">
-                <h3>Instant HD Export</h3>
-                <p>Download 1080x1920 vertical video ready for upload instantly.</p>
-            </div>
-
+        <div class="glass-card" data-animate>
+            <img src="https://img.icons8.com/color/96/000000/idea.png"/>
+            <h3>AI Script Engine</h3>
+            <p>Generate retention-optimised scripts instantly.</p>
+            <div class="border-anim"></div>
         </div>
 
-    </section>
-
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing-section">
-        <h2 class="section-title" data-animate>Simple, Transparent Pricing</h2>
-        <p class="section-subtitle" data-animate>Only pay for what you generate</p>
-
-        <div class="pricing-box" data-animate>
-            <h3>£4.99 per Video Credit</h3>
-            <p>Includes full AI script, voiceover, editing, captions, and export.</p>
-            <a href="#" class="btn-primary large">Buy Credits</a>
+        <div class="glass-card" data-animate>
+            <img src="https://img.icons8.com/color/96/000000/microphone.png"/>
+            <h3>AI Voiceovers</h3>
+            <p>40+ natural AI voices across styles and languages.</p>
+            <div class="border-anim"></div>
         </div>
-    </section>
 
-    <!-- FAQ Section -->
-    <section id="faq" class="section">
-        <h2 class="section-title" data-animate>FAQ</h2>
-
-        <div class="faq-list">
-
-            <div class="faq-item" data-animate>
-                <h4>How fast is video generation?</h4>
-                <p>Most videos generate in 60–120 seconds.</p>
-            </div>
-
-            <div class="faq-item" data-animate>
-                <h4>Can I monetize the videos?</h4>
-                <p>Yes — commercial rights included.</p>
-            </div>
-
-            <div class="faq-item" data-animate>
-                <h4>Do credits expire?</h4>
-                <p>No — they last forever.</p>
-            </div>
-
+        <div class="glass-card" data-animate>
+            <img src="https://img.icons8.com/color/96/000000/video-editing.png"/>
+            <h3>Auto Editing</h3>
+            <p>Captions, b-roll selection, pacing and effects handled automatically.</p>
+            <div class="border-anim"></div>
         </div>
-    </section>
 
-    <!-- CTA -->
-    <section id="cta" class="cta-section">
-        <h2 data-animate>Start Creating Viral Clips Today</h2>
-        <a href="#pricing" class="btn-primary large" data-animate>Get Started</a>
-    </section>
+        <div class="glass-card" data-animate>
+            <img src="https://img.icons8.com/color/96/000000/export.png"/>
+            <h3>Instant HD Export</h3>
+            <p>1080x1920 ready-to-upload videos in seconds.</p>
+            <div class="border-anim"></div>
+        </div>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p>© 2025 InstantClips AI</p>
-        <a href="privacy.html">Privacy Policy</a>
-        <a href="terms.html">Terms of Service</a>
-        <a href="mailto:contact@instantclips.ai">Contact</a>
-    </footer>
+    </div>
+</section>
 
-    <script src="script.js"></script>
+<section id="showcase" class="section showcase">
+    <h2 class="section-title" data-animate>Live Demo Showcase</h2>
+    <video src="assets/demo-video.mp4" autoplay loop muted playsinline class="demo-video" data-animate></video>
+</section>
+
+<section id="pricing" class="pricing-section">
+    <h2 class="section-title" data-animate>Simple Pricing</h2>
+
+    <div class="billing-switch" data-animate>
+        <span>Per Video</span>
+        <label class="switch">
+            <input type="checkbox" id="billingToggle">
+            <span class="slider"></span>
+        </label>
+        <span>Monthly</span>
+    </div>
+
+    <div class="pricing-grid">
+        <div class="pricing-card" id="priceCard" data-animate>
+            <h3 id="priceTitle">Pay Per Video</h3>
+            <p id="priceDesc">1 credit = 1 full generated video.</p>
+            <h1 id="priceValue">£4.99</h1>
+            <a class="btn-primary" href="#">Buy Credits</a>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials" class="section">
+    <h2 class="section-title" data-animate>Loved By Creators</h2>
+
+    <div class="testimonial-slider" data-animate>
+        <div class="testimonial">
+            <img src="assets/testimonial-1.jpg">
+            <p>"Generated 30 short clips in one day. This is insane."</p>
+            <h4>Alex – TikTok Creator</h4>
+        </div>
+
+        <div class="testimonial">
+            <img src="assets/testimonial-2.jpg">
+            <p>"The AI voiceover quality is ridiculous. Sounds real."</p>
+            <h4>Jamie – YouTuber</h4>
+        </div>
+
+        <div class="testimonial">
+            <img src="assets/testimonial-3.jpg">
+            <p>"This tool saves me 3–4 hours per video. Game changer."</p>
+            <h4>Maya – Short-Form Editor</h4>
+        </div>
+    </div>
+</section>
+
+<section id="faq" class="section">
+    <h2 class="section-title" data-animate>FAQ</h2>
+
+    <div class="faq-list">
+
+        <div class="faq-item" data-animate>
+            <h4>How fast can I generate videos?</h4>
+            <p>60–120 seconds on average.</p>
+        </div>
+
+        <div class="faq-item" data-animate>
+            <h4>Can I monetize the outputs?</h4>
+            <p>Yes — full commercial rights included.</p>
+        </div>
+
+        <div class="faq-item" data-animate>
+            <h4>Is monthly better than credit-based?</h4>
+            <p>Monthly gives you unlimited rendering.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="cta-section">
+    <h2 data-animate>Create Viral Clips Today</h2>
+    <a href="#pricing" class="btn-primary large" data-animate>Start Now</a>
+</section>
+
+<footer class="footer">
+    <p>© 2025 InstantClips AI</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
